@@ -34,13 +34,14 @@ section#login {
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.474);
 }
 
 
 div {
     width: 250px;
     margin: auto;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.474);
+    
 }
 
 div#img {
@@ -65,81 +66,12 @@ div#form {
     border-bottom-right-radius: 20px;
     height: 45vh;
 }
- div#form>h1 {
-    padding-top: 10px;
+
+div#form>h1 {
     text-align: center;
-    font-size: 1.5em;
- }
-
- div#form>p#texto {
-    display: block;
-    padding: 0px 5px 8px 5px;
-    font-size: 0.8em;
-   font-weight: lighter;
-   width: 230px;
-    
-    margin: auto;
- }
-
- .info {
-    display: block;
-    background-color: #5f2c82;
-    border-radius: 8px;
-    height: 30px;
-    border-color: #49a09d00;
-    margin: 1px;
-    margin: auto;
     margin-bottom: 10px;
-    height: 60px;
-    width: 230px;
-    height: 40px;
-    margin: auto;
- }
-
- .dados {
-    background-color: #6ce9e5;
-    border-radius: 8px;
-    border-style: solid;
-    border-color: #6ce9e5;
-    height: 38px;
-    padding-right: 38px;
 }
 
-#entrar {
-    display: block;
-   font-size: 1em;
-    text-decoration: none;
-    color: white;
-    background-color: #49a09d;
-    border-style: solid;
-    border-color: #49a09d;
-    border-radius: 8px;
-    width: 230px;
-    height: 40px;
-    margin: auto;
-    margin-bottom: 5px;
+div#form>p {
+    font-size: 0.8em;
 }
-
-#entrar:hover {
-    background-color: #346f6d;
-    border-color: #346f6d;
-}
- a {
-    display: block;
-    padding:  10px;
-    text-decoration: none;
-    text-align: center;
-    color: #49a09d;
-    border-style: solid;
-    border-color: #49a09d;
-    border-radius: 8px;
-    font-size: 1em;
-    width: 230px;
-    height: 40px;
-    margin: auto;
-    text-align: center;
- }
-
- a:hover {
-    background-color: #6ee0e0 ;
- }
