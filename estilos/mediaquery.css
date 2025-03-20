@@ -48,7 +48,9 @@ div#img {
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
 }
-
+div.campo>input{
+    width: 93%;
+}
 div#form {
     float: right;
     width: 70%;
@@ -107,7 +109,9 @@ div#form {
         border-top-right-radius: 20px;
         border-bottom-right-radius: 20px;
     }
-    
+    div.campo>input{
+        width: 93.7%;
+    }
     div#form {
         float: left;
         display: block;
@@ -124,6 +128,9 @@ div#form {
         font-size: 2em;
     }
     div#form>p {
-        font-size: 1.2em;
+        font-size: 1em;
+        padding: 10px 0px;
     }
+  
+    
 }
